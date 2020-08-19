@@ -1,7 +1,7 @@
 
-from tensorflow.python.keras import models , optimizers , losses ,activations , callbacks
-from tensorflow.python.keras.layers import *
-import tensorflow.python.keras.backend as K
+from tensorflow.keras import models , optimizers , losses ,activations , callbacks
+from tensorflow.keras.layers import *
+import tensorflow.keras.backend as K
 from PIL import Image
 import tensorflow as tf
 import time
