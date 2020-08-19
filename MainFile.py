@@ -1,5 +1,5 @@
 
-from tensorflow.python.keras.callbacks import TensorBoard
+from tensorflow.keras.callbacks import TensorBoard
 from SiameseModel import Recognizer
 from PIL import Image
 import numpy as np
@@ -58,10 +58,4 @@ for i in range( custom_images.shape[0] ) :
     index = np.argmax( scores[i] )
     label_ = labels[i][index]
     print( 'IMAGE {} is {} with confidence of {}'.format( i+1  , label_ , scores[i][index][0] ) )
-
-
-
-
-
-
 
